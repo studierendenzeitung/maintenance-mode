@@ -1,4 +1,35 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    background-color: #1a1a1a;
+    padding: 2rem 1rem;
+    background-color: #262626;
     color: #fff;
+}
+
+a {
+    color: #fff;
+}
+
+@media (min-width:756px) {
+    body {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+    }
+
+    main {
+        width: 50%;
+    }
+}
+
+@media (min-width:1024px) {
+    main {
+        width: 25%;
+    }
 }
